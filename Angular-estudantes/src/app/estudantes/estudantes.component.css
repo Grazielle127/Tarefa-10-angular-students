@@ -1,0 +1,60 @@
+.students-list {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.estudantes {
+    list-style-type: none;
+}
+
+h2 {
+    margin-left: 25px;
+    color: blueviolet;
+}
+
+button {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 135, 135);
+    margin-bottom: 5px;
+    height: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+span {
+    background-color: transparent;
+}
+
+.estudantes button.selected, .estudantes span.selected {
+    background-color: rgb(255, 0, 208);
+    color: white;
+}
+
+.estudantes button:active {
+    background-color: rgb(255, 0, 208);
+    color: white;
+}
+
+.estudantes span:active {
+    background-color: rgb(255, 0, 208);
+    color: white;
+}
+
+.estudantes button.selected:active {
+    background-color: rgb(255, 0, 208);
+    color: white;
+}
+
+.estudantes span.selected:active {
+    background-color: rgb(255, 0, 208);
+    color: white;
+}
